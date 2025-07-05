@@ -1,0 +1,33 @@
+# Código fuente TypeScript (solo publicamos el compilado)
+src/
+bin/
+tsconfig.json
+
+# Archivos de desarrollo
+*.log
+.env
+.env.*
+
+# Dependencias
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build artifacts temporales
+*.tsbuildinfo

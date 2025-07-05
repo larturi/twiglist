@@ -1,0 +1,36 @@
+{
+  "name": "twiglist",
+  "version": "1.0.0",
+  "description": "CLI para listar archivos de código fuente",
+  "bin": {
+    "twiglist": "dist/bin/cli.js"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "files",
+    "typescript",
+    "node",
+    "tree",
+    "directory",
+    "structure"
+  ],
+  "author": "Leandro Arturi",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

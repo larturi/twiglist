@@ -86,8 +86,8 @@ mi-proyecto/
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/filetree-list.git
-cd filetree-list
+git clone https://github.com/larturi/twiglist.git
+cd twiglist
 
 # Instalar dependencias
 npm install
